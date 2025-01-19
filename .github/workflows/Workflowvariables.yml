@@ -5,11 +5,11 @@ env:
   cloud: AWS
 jobs:
   greeting Job:
-  runs-on: ubuntu-latest
-  env:
-    Greeting: Hello
-    steps:
-      name: "Say Hello Mona it's Monday"
-      run: echo "sGreeting SFirst Name is using Scloud!"
-      env:
-        First Name: Praveen
+    runs-on: ubuntu-latest
+    env:
+      Greeting: Hello
+      steps:
+        name: "Say Hello Mona it's Monday"
+        run: echo "sGreeting SFirst Name is using Scloud!"
+        env:
+          First Name: Praveen
