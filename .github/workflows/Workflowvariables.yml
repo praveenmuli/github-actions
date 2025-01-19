@@ -12,4 +12,4 @@ jobs:
         - name: "Say Hello Mona it's Monday"
           run: echo "sGreeting SFirst Name is using Scloud!"
           env:
-            First Name: Praveen
+            First Name: Praveen Muli
