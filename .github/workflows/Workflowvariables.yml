@@ -1,16 +1,16 @@
 name: Testing workflow variables
 on:
   workflow dispatch
-  push:main
+  push: main
 env:
   cloud: AWS( Amazon Web Services)
 jobs:
   greeting Job:
-runs-on: ubuntu-latest
-  env:
-    Greeting: Hello
+  runs-on: ubuntu-latest
+    env:
+      Greeting: Hello
       steps:
-      name: "Say Hello Mona it's Monday"
-        run: echo "sGreeting SFirst Name is using Scloud!"
-      env:
-        First Name: Praveen
+        name: "Say Hello Mona it's Monday"
+          run: echo "sGreeting SFirst Name is using Scloud!"
+        env:
+          First Name: Praveen
