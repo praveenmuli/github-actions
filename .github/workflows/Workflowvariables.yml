@@ -1,6 +1,7 @@
 name: Testing workflow variables
 on:
   workflow dispatch
+  pull_request:main
 env:
   cloud: AWS( Amazon Web Services)
 jobs:
